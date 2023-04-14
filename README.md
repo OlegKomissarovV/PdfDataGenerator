@@ -44,6 +44,10 @@ Place of residence - six-digit postal code, country, region, city, street, house
 - API version 1.8
 - Language version 1.8
 
+## Source Folders:
+
+- `src/main/kotlin`
+
 ## Resource Folders:
 
 - `src/main/resources`
@@ -54,6 +58,11 @@ Place of residence - six-digit postal code, country, region, city, street, house
 - Path to output PDF file containing randomly generated personal data: `./src/main/resources/sample.pdf`
 - Path to TrueType font file used when generating the PDF file: `./src/main/resources/arial.ttf`
 - Path to the main executable file for running the console application: `./src/main/kotlin/Main.kt`
+- Path to the file for generating data: `./src/main/kotlin/Data.kt`
+- Path to the file for interface `MyDocument`: `./src/main/kotlin/MyDocument.kt`
+- Path to the file for generating PDF document: `./src/main/kotlin/PdfDocument.kt`
+- Path to the file for generating PDF file with generated data: `./src/main/kotlin/PdfGenerator.kt`
+- Path to the file for abstract class `Person`: `./src/main/kotlin/Person.kt`
 
 ## Dependencies
 
